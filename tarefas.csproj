@@ -1,0 +1,13 @@
+<Project Sdk="Microsft.NET.Sdk">
+
+<PropertyGroup>
+<OutpuType>Exec</OutpuType>
+<TargetFramework>net8.0</TargetFramework>
+<Nullable>enable</Nullable>
+</PropertyGroup>
+
+<ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.4.0"/>
+</ItemGroup>
+
+</Project>
